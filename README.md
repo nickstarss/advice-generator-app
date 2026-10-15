@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Advice generator app
 
-## Getting Started
+This is my solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
-First, run the development server:
+## Table of contents
+
+- [Overview](#overview)
+- [My process](#my-process)
+- [Getting started](#getting-started)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
+The goal is to build a responsive advice generator where users can view a piece of advice and request another one using the dice button.
+
+### Features
+
+- Responsive advice card for mobile and desktop screens.
+- Loads advice when the app opens and when the dice button is clicked.
+- Shows a skeleton while advice is loading.
+- Retrieves advice from the [Advice Slip API](https://api.adviceslip.com/).
+
+### Links
+
+- Solution URL: TODO
+- Live site URL: TODO
+
+## My process
+
+### Built with
+
+- [Next.js](https://nextjs.org/) with the App Router
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Advice Slip API](https://api.adviceslip.com/)
+
+### Implementation notes
+
+- The advice is requested from the Advice Slip API when the page loads and when the user activates the dice button.
+- A loading skeleton is displayed while a request is in progress.
+- Separate divider images are used for mobile and desktop layouts.
+
+## Getting started
+
+Install the dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Other available scripts:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run build` — create a production build.
+- `npm run start` — serve the production build.
+- `npm run lint` — run ESLint.
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+- Frontend Mentor: TODO
+- GitHub: TODO
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgments
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Frontend Mentor](https://www.frontendmentor.io/) for the challenge.
+- [Advice Slip API](https://api.adviceslip.com/) for the advice data.
